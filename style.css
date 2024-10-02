@@ -1,0 +1,203 @@
+@import url(https://db.onlinewebfonts.com/c/99822a8cb6673dc5a488266b4cd83e1e?family=Boca+Raton+Solid+Regular);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.nav_bar{
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+}
+.nav_bar th{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.nav_bar a:link{
+    color: black;
+}
+.nav_bar a:visited{
+    color: black;
+}
+.nav_bar a:hover{
+    color: #189C97;
+}
+.nav_bar a:active{
+    color: #189C97;
+}
+th:hover{
+    color: #189C97;
+}
+.nav_bar a{
+    text-decoration: none;
+}
+.page_header h1{
+    margin: auto;
+    width: fit-content;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    font-size: 50px;
+    font-family: "Boca Raton Solid Regular";
+}
+.footer{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-self: flex-end;
+    background-color: black;
+}
+.footer p{
+    color: white;
+    align-self: center;
+    justify-self: flex-start;
+    margin-left: 12.5%;
+    margin-right: 37.5%
+}
+.footer img{
+    width: 75px;
+    height: 75px;
+    padding: 10px;
+    align-self: center;
+}
+
+/* Zach */
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-gap: 10px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.image{
+    overflow: hidden;
+}
+.image img{
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 2px solid black;
+}
+
+/* Jose */
+#cholotext{
+    border-color: white;
+    border: 5px solid white;
+    background-color: white;
+    width: fit-content;
+    height: 40px;
+   
+    margin-bottom: 20px;
+   
+}
+.text{
+    flex-direction: column;
+    float: right;
+    margin: 100px;
+    font-size: 30px;
+}
+.cholo{
+    background-image: url(the-beacon.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 70%;
+}
+#cholotext1{
+    border-color: grey;
+    border: 5px solid grey;
+    background-color: grey;
+    width: fit-content;
+    height: auto;
+    margin-bottom: 20px;
+}
+#cholotext2{
+    border-color: grey;
+    border: 5px solid grey;
+    background-color: grey;
+    width: fit-content;
+    height: auto;
+    margin-bottom: 20px;
+}
+#cholotext3{
+    border-color: grey;
+    border: 5px solid grey;
+    background-color: grey;
+    width: fit-content;
+    height: auto;
+    margin-bottom: 20px;
+}
+#read{
+    border: 5px solid #219e6e;
+    width: fit-content;
+    background-color: #219e6e;
+    color: white;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.profile {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    max-width: 300px;
+}
+   
+.profile img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-bottom: 2px solid #000;
+    border: 5px solid black;
+}
+.profile h2 {
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+}
+
+/* Gavin */
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.content img{
+    margin: auto;
+    width: 700px;
+    height: 350px;
+    border: solid black 3px;
+    margin-bottom: 40px;
+}
+.content h3{
+    margin: auto;
+}
+.content p{
+    margin: auto;
+    text-align: center;
+    max-width: 635px;
+    line-height: 2;
+    padding-bottom: 25px;
+}
+.content a:link{
+    color: black;
+}
+.content a:visited{
+    color: black;
+}
+.content a:active{
+    color: black;
+}
